@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout";
 import {
-  CryptoPage,
+  // CryptoPage,
   AnalyticsPage,
   ECommercePage,
   ProfilePage,
   InvoicePage,
   TasksPage,
-  CalendarPage,
+  // CalendarPage,
   AuthPage,
   UIPage,
   IconsPage,
@@ -23,12 +23,12 @@ export default function App() {
           
           <Route path="analytics" element={<AnalyticsPage />} />
           <Route path="ecommerce" element={<ECommercePage />} />
-          <Route path="crypto" element={<CryptoPage />} />
+          {/* <Route path="crypto" element={<CryptoPage />} /> */}
           
           <Route path="profile" element={<ProfilePage />} />
           <Route path="invoice" element={<InvoicePage />} />
           <Route path="tasks" element={<TasksPage />} />
-          <Route path="calendar" element={<CalendarPage />} />
+          {/* <Route path="calendar" element={<CalendarPage />} /> */}
           
           <Route path="auth/login" element={<AuthPage mode="login" />} />
           <Route path="auth/register" element={<AuthPage mode="register" />} />
